@@ -3,6 +3,7 @@ import Layout from "./Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Users from "./pages/Users";
+import UserDetails from "./pages/UserDetails";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,14 @@ const router = createBrowserRouter([
       {
         path: "/users",
         element: <Users />,
+      },
+      {
+        path: "/user/:id",
+        element: <UserDetails />,
+      },
+      {
+        path: "/userdetails",
+        element: <UserDetails />,
       },
       {
         path: "*",
