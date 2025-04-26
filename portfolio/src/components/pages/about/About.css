@@ -1,0 +1,86 @@
+.aboutContainer {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(20, 20, 20);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutContent {
+  max-width: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: auto;
+  box-sizing: border-box;
+  color: white;
+  gap: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.aboutMe {
+  margin-top: 2rem;
+  background: yellow;
+  color: black;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: large;
+}
+
+.aboutText {
+  font-size: 2.7rem;
+  max-width: 700px;
+  text-align: left;
+}
+
+.aboutTable {
+  width: auto;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 8px 3px;
+  padding: 1.2rem 5rem 1.2rem 1.2rem;
+  border-radius: 1rem;
+  background-color: rgb(116, 116, 121);
+  font-size: 1.2rem;
+  margin-right: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6px);
+  border: 1.5px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.3s ease;
+}
+
+table strong {
+  color: yellow;
+}
+
+.contactMe {
+  margin-top: 1rem;
+  background: white;
+  color: black;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.contactMe:hover {
+  background-color: yellow;
+}
+
+.pic2 {
+  width: 500px;
+  display: flex;
+  height: auto;
+  align-items: center;
+  border-radius: 15rem;
+  margin-left: 5rem;
+}

@@ -1,0 +1,79 @@
+.introContainer {
+  background: linear-gradient(to bottom, rgb(50, 50, 50), rgb(29, 30, 30));
+}
+
+.intro {
+  height: calc(100vh - 4rem);
+  height: 100dvh;
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.bg {
+  position: absolute;
+  top: 5rem;
+  right: 5rem;
+  z-index: 5;
+  object-fit: cover;
+  height: 85vh;
+  filter: drop-shadow(0 10px 20px rgba(126, 134, 90, 0.3));
+  transition: all 0.3s ease;
+}
+
+.introContent {
+  height: calc(100vh - 4rem);
+  width: 100vw;
+  padding: 2rem;
+  font-size: 4rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12rem;
+}
+
+.hello {
+  color: yellow;
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.introName {
+  color: yellow;
+}
+
+.introPara {
+  font-size: medium;
+  font-weight: 200;
+}
+
+.btn {
+  background: white;
+  padding: 0 0.7rem;
+  margin: 1rem 0;
+  border: none;
+  border-radius: 2rem;
+  color: black;
+  align-self: flex-start;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: medium;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.btnImg {
+  object-fit: cover;
+  margin: 0 0.25rem;
+  height: 1rem;
+}
