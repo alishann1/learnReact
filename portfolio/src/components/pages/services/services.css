@@ -1,0 +1,82 @@
+.servicesContainer {
+  background: linear-gradient(to bottom, rgb(50, 50, 50), rgb(29, 30, 30));
+  height: 100vh;
+}
+
+.servicesContent {
+  justify-content: center;
+  max-width: 75rem;
+  padding-top: 2rem;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.servicesCards {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 2rem;
+  height: 470px;
+  width: 400px;
+  padding: 2rem 0rem 0 0rem;
+  background-color: rgb(20, 20, 20);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.servicesCards img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  margin-top: auto;
+  border-radius: 2rem;
+}
+
+.myServices {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+.servicesText {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.seeAll {
+  background: white;
+  color: black;
+  padding: 0.5rem 2rem;
+  margin-top: 1.5rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.seeAll:hover {
+  background-color: yellow;
+}
+
+.cardText {
+  font-size: 2rem;
+  font-weight: 500;
+}

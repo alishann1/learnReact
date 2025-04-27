@@ -15,10 +15,14 @@ function Intro() {
             <br /> <span style={{ color: "yellow" }}>JavaScript </span>Developer
           </span>
           <p className="introPara">
-            Full-Stack Developer passionate about building scalable,
+            "Full-Stack Developer passionate about building scalable,
             user-focused solutions."
           </p>
-          <Link className="btn">
+          <Link
+            className="btn"
+            to="https://github.com/alishann1"
+            target="_blank"
+          >
             <button className="btn">
               <img src={btnImg} alt="Hire Me" className="btnImg" /> Hire Me
             </button>

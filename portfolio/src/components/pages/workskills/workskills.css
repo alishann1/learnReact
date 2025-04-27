@@ -1,0 +1,62 @@
+.workSkillsContainer {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(20, 20, 20);
+}
+
+.workSkillsContent {
+  padding-top: 3rem;
+  justify-content: center;
+  max-width: 75rem;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+.cardsPage {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.cardsRow {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.skillCard {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(to bottom, rgb(50, 50, 50), rgb(29, 30, 30));
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.skillCard:hover {
+  transform: translateY(-8px);
+}
+
+.myWorkSkills {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+.workSkillText {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.cardImg {
+  width: 100px;
+}

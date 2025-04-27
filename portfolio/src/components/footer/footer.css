@@ -1,0 +1,13 @@
+.footerContainer {
+  background-color: rgb(30, 30, 30);
+}
+
+.footerContent {
+  justify-content: center;
+  max-width: 75rem;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem 0;
+}

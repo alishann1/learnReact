@@ -1,5 +1,5 @@
 import React from "react";
-import jslogo from "../../assets/jslogo.jpg";
+import jslogo from "../../assets/jslogo.png";
 import "./navbar.css";
 import { Link } from "react-router-dom";
 import contact from "../../assets/contact.png";
@@ -15,17 +15,19 @@ const Navbar = () => {
         <Link className="desktopMenuItems" to="/About">
           About
         </Link>
-        <Link className="desktopMenuItems" to="/Portfolio">
-          Portfolio
+        <Link className="desktopMenuItems" to="/Services">
+          Services
         </Link>
-        <Link className="desktopMenuItems" to="/Clients">
-          Clients
+        <Link className="desktopMenuItems" to="/WorkSkills">
+          Work Skills
         </Link>
       </div>
-      <button className="desktopMenuBtn">
-        <img src={contact} alt="" className="desktopMenuImg" />
-        Lets Talk
-      </button>
+      <Link className="whatsapp" to="https://wa.me/03170057749" target="_blank">
+        <button className="desktopMenuBtn">
+          <img src={contact} alt="" className="desktopMenuImg" />
+          Lets Talk
+        </button>
+      </Link>
     </nav>
   );
 };
